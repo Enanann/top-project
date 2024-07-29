@@ -1,0 +1,30 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    gap: 16px;
+}
+
+.logo {
+    margin-right: auto; 
+}
+
+.container, .footer {
+    background-color: #a9c2e5;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
