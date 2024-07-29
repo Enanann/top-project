@@ -9,6 +9,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    background-color: #242424;
 }
 
 a {
@@ -19,12 +21,17 @@ a {
 
 .header {
     display: flex;
-    gap: 16px;
+    gap: 32px;
     padding: 16px;
 }
 
 .logo {
     margin-right: auto; 
+}
+
+.header > a {
+    align-self: flex-start;
+    color: white;
 }
 
 .title {
@@ -34,10 +41,7 @@ a {
 
     font-size: 40px;
     font-weight: bold;
-}
-
-.container, .footer {
-    background-color: #a9c2e5;
+    color: white;
 }
 
 .container {
@@ -45,6 +49,7 @@ a {
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)), url("./img/Ena1.png");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     background-position: 50% 20%;
     
@@ -58,16 +63,48 @@ a {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 32px;
+    padding: 16px;
 }
 
 .link {
     min-height: 200px;
     min-width: 200px;
-    background-color: bisque;
+    background-color: transparent;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.link-text {
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+
+.github {
+    background-image: url("./img/github.svg");
+    border-radius: 10%;
+}
+
+.steam {
+    background-image: url("./img/steam.svg");
+    border-radius: 10%;
+}
+
+.spotify {
+    background-image: url("./img/spotify.svg");
+    border-radius: 10%;
+}
+
+.twitch {
+    background-image: url("./img/twitch.svg");
+    border-radius: 10%;
+}
+
+.youtube {
+    background-image: url("./img/youtube.svg");
+    border-radius: 10%;
 }
 
 /*---------FOOTER---------*/
